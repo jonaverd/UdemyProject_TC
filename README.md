@@ -31,9 +31,9 @@
 ## Sección 8: Programa una consola de turnos
 
 ### Ejercicios
-|      |  |        | 
-|-------------|-----------|---------------|
-|  |  |  | 
+| Modules  |  |        | 
+|----------|--|---------------|
+| Packages |  |  | 
 
 ### Instalación de paquetes
 https://pypi.org/
