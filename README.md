@@ -35,6 +35,12 @@
 |-------------|-----------|---------------|
 |  |  |  | 
 
+### Instalación de paquetes
+https://pypi.org/
+
+![](readme4.png)
+
+![](readme5.png)
 
 ### Problemas
 - Cuando se descarga el repositorio no se detecta el intérprete de Python.
