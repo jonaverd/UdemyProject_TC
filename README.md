@@ -31,12 +31,19 @@
 ## Sección 8: Programa una consola de turnos
 
 ### Ejercicios
-| Modules  |  |        | 
-|----------|--|---------------|
-| Packages |  |  | 
+| Modules  | Exceptions | 
+|----------|------------|
+| Packages | Tests      | 
 
 ### Instalación de paquetes
 https://pypi.org/
+
+#### Utilizados
+- PyLint (Analizador de código)
+```
+pylint <file> -r y
+```
+
 
 ![](readme4.png)
 
