@@ -1,7 +1,7 @@
-'''
+"""
 Este módulo contiene una sencilla función de suma,
 y ejecuta un ejemplo mostrando el resultado en pantalla
-'''
+"""
 
 
 def sumar(numero1, numero2):
