@@ -58,6 +58,16 @@ pylint <file> -r y
 
 ![](readme3.png)
 
+- Para hacer tests sobre el contenido de un 'print', hay que utilizar 
+```
+@unittest.mock
+
+```
+```
+sys.stdout
+
+```
+
 ### Proyecto
 
 - Ejecución desde la salida de la consola
