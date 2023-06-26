@@ -60,7 +60,7 @@ pylint <file> -r y
 
 - Para hacer tests sobre el contenido de un 'print', hay que utilizar 
 ```
-@unittest.mock
+@unittest.mock 
 
 ```
 ```
