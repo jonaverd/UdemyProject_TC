@@ -64,6 +64,12 @@ pylint <file> -r y
   
 ![](project00.png)
 
+### Tests
+
+- Ejecución de las pruebas a través de la consola
+  
+![](project01.png)
+
 ### Instrucciones
 
 - Instar última versíón de Python
