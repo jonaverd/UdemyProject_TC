@@ -61,6 +61,7 @@ pylint <file> -r y
 ### Proyecto
 
 - Ejecución desde la salida de la consola
+  
 ![](project00.png)
 
 ### Instrucciones
