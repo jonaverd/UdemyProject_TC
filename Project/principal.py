@@ -1,17 +1,13 @@
 from numeros import *
 from helper import *
 
-farmacia = generador_farmacia()
-cosmetica = generador_cosmetica()
-perfumeria = generador_perfumeria()
-
 
 def lista_menu():
     """muestra las secciones disponibles"""
     print(f"-- Saque su turno --")
-    print(f"[1] Sección Perfumeria\n"
-          f"[2] Sección Cosmética\n"
-          f"[3] Sección Farmacia\n")
+    print(f"[1] Sección Farmacia\n"
+          f"[2] Sección Perfumeria\n"
+          f"[3] Sección Cosmética\n")
 
 
 def operar_turnos(seccion, generador):
@@ -46,21 +42,15 @@ def elegir_opcion():
 
         else:
             if turno == '1':
-                print("")
+                decorar_turno(farmacia)
             elif turno == '2':
-                print("")
+                decorar_turno(perfumeria)
             else:
-                print("")
+                decorar_turno(cosmetica)
             break
 
 
 def inicio():
-    e = decorar_turno(generador_perfumeria)
-    print(e)
-    input()
-    e = decorar_turno(generador_perfumeria)
-    print(e)
-    input()
     """Controla la ejecucion del programa"""
     continuar = True
     while True:
